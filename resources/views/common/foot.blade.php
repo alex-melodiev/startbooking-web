@@ -7,7 +7,7 @@
   {!! @$head_code !!}
   <script src="{{ url('public/front/js/jquery-ui.js') }}"></script>
   <script src="{{ url('public/front/js/bootstrap.js') }}"></script>
-  
+
   <script type="text/javascript" src='https://maps.google.com/maps/api/js?key={{ @$map_key }}&sensor=false&libraries=places'></script>
 
   <script src="{{ url('public/front/js/locationpicker.jquery.min.js') }}"></script>
@@ -33,7 +33,7 @@
     }
   </script>
   @stack('scripts')
-  
+
   <script src="{{ url('public/front/js/ninja/ninja-slider.js') }}"></script>
   <script src="{{ url('public/front/js/bootstrap-slider.js') }}"></script>
   <script src="{{ url('public/front/js/selectFx.js') }}"></script>
@@ -53,9 +53,20 @@
   <script type="text/javascript">
     $(document).ready( function() {
         $(document).on('change', '.day-of-birth', function () {
-          $('#day-of-birth').val($('#user_birthday_year').val() + '-' + $('#user_birthday_month').val() + '-' + $('#user_birthday_day').val());   
-        });     
+          $('#day-of-birth').val($('#user_birthday_year').val() + '-' + $('#user_birthday_month').val() + '-' + $('#user_birthday_day').val());
+        });
       });
+  </script>
+
+  <script type="text/javascript" src="{{ asset('public/js/jquery.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('public/js/bootstrap.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('public/js/app.js') }}"></script>
+  <script type="text/javascript">
+    (function ($) {
+      $(document).ready(function() {
+        App.init();
+      });
+    }(jQuery));
   </script>
  </body>
 </html>
