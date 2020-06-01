@@ -1,0 +1,77 @@
+{
+  "name": "start_booking",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "watch": "vue-cli-service build --watch",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.4.4",
+    "javascript-time-ago": "^2.0.6",
+    "laravel-echo": "^1.7.0",
+    "mobile-device-detect": "^0.3.3",
+    "object-fit-images": "^3.2.4",
+    "portal-vue": "^2.1.7",
+    "socket.io-client": "^2.3.0",
+    "v-click-outside": "^3.0.0",
+    "vue": "^2.6.10",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-i18n": "^8.15.3",
+    "vue-meta": "^2.3.1",
+    "vue-router": "^3.1.3",
+    "vue-the-mask": "^0.11.1",
+    "vue-toasted": "^1.1.27",
+    "vue2-datepicker": "^3.3.0",
+    "vue2-google-maps": "^0.10.7",
+    "vuex": "^3.1.2",
+    "vuex-persist": "^2.2.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-plugin-router": "^4.1.0",
+    "@vue/cli-plugin-vuex": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^3.0.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.0",
+    "svg-sprite-loader": "^4.1.6",
+    "svgo": "^1.1.0",
+    "svgo-loader": "^2.1.0",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-svg-sprite": "^1.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/prettier"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

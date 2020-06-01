@@ -1,0 +1,17 @@
+.img-uploader {
+  &__file {
+    display: none;
+  }
+
+  &__row {
+    display: block;
+    margin-bottom: 0;
+    padding: 5px;
+    border: 1px dashed transparent;
+    border-radius: $border-radius;
+    &--is-over {
+      border-color: $gray-500;
+    }
+  }
+
+}

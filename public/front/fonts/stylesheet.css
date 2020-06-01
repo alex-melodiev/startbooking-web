@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+        url('subset-SFProDisplay-Semibold.woff2') format('woff2'),
+        url('subset-SFProDisplay-Semibold.woff') format('woff'),
+        url('subset-SFProDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: local('SF Pro Text Regular'), local('SFProText-Regular'),
+        url('subset-SFProText-Regular.woff2') format('woff2'),
+        url('subset-SFProText-Regular.woff') format('woff'),
+        url('subset-SFProText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: local('SF Pro Text Semibold'), local('SFProText-Semibold'),
+        url('subset-SFProText-Semibold.woff2') format('woff2'),
+        url('subset-SFProText-Semibold.woff') format('woff'),
+        url('subset-SFProText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('subset-Roboto-Light.woff2') format('woff2'),
+        url('subset-Roboto-Light.woff') format('woff'),
+        url('subset-Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+        url('subset-SFProDisplay-Regular.woff2') format('woff2'),
+        url('subset-SFProDisplay-Regular.woff') format('woff'),
+        url('subset-SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('subset-Roboto-Medium.woff2') format('woff2'),
+        url('subset-Roboto-Medium.woff') format('woff'),
+        url('subset-Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Light'), local('SFProDisplay-Light'),
+        url('subset-SFProDisplay-Light.woff2') format('woff2'),
+        url('subset-SFProDisplay-Light.woff') format('woff'),
+        url('subset-SFProDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('subset-Roboto-Regular.woff2') format('woff2'),
+        url('subset-Roboto-Regular.woff') format('woff'),
+        url('subset-Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+        url('subset-SFProDisplay-Medium.woff2') format('woff2'),
+        url('subset-SFProDisplay-Medium.woff') format('woff'),
+        url('subset-SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

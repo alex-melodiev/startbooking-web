@@ -1,0 +1,103 @@
+.home {
+  position: relative;
+  padding: 24px 0;
+  min-height: 100vh;
+  &--gray {
+    background: $gray-100;
+  }
+  &__helper {
+    padding: 16px;
+    position: relative;
+    z-index: 2;
+    .btn {
+      display: block;
+      width: auto;
+    }
+  }
+  &__form {
+    position: relative;
+    z-index: 2;
+  }
+  &__cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  &__title {
+    display: block;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    font-size: 36px;
+    font-weight: $font-weight-normal;
+  }
+  &__text {
+    margin: auto;
+    text-align: center;
+  }
+  &__illustration {
+    display: none;
+    position: absolute;
+    &--left-bottom {
+      left: 0;
+      bottom: 0;
+    }
+    &--right-bottom {
+      right: 0;
+      bottom: 0;
+    }
+  }
+  &__partner {
+    padding: 16px;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding: 0;
+    &__helper {
+      position: absolute;
+      top: 32px;
+      right: 32px;
+    }
+    &__form {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    &__illustration {
+      display: block;
+    }
+  }
+  @media (min-width: 767px) and (max-width: 1399px) {
+    &__partner {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      max-width: 900px;
+      margin: auto;
+      z-index: 2;
+      transform: translateY(-50%);
+    }
+  }
+  @media (min-width: 1400px) {
+    &__text {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    &__hint {
+      position: absolute;
+      top: 64px;
+      left: 64px;
+      max-width: 380px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.stars-select {
+  $_: '.stars-select';
+  display: flex;
+  align-items: center;
+  &__button {
+    margin: 0 2px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    &:focus {
+      outline: none;
+    }
+  }
+  .icon {
+    color: $ternary;
+    &--star-outline {
+      fill: $white;
+      stroke: $ternary;
+    }
+  }
+  &--xl {
+    #{$_}__button {
+      margin: 0 8px;
+    }
+    .icon {
+      font-size: 36px;
+    }
+  }
+  &--centered {
+    justify-content: center;
+  }
+}

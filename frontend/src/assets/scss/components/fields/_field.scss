@@ -1,0 +1,27 @@
+.field {
+  position: relative;
+  &__container {
+    position: relative;
+  }
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+  }
+  &__phone {
+    display: flex;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    color: $gray-600;
+    font-size: $font-size-sm;
+    transform: translateY(-50%);
+    span {
+      margin-right: 4px;
+    }
+    img {
+      width: 20px;
+    }
+  }
+}

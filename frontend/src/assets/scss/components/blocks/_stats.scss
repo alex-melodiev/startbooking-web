@@ -1,0 +1,47 @@
+.stats {
+  display: flex;
+  margin-bottom: 8px;
+  &__rating {
+    display: flex;
+    margin-right: 15px;
+    padding: 4px 15px 4px 0;
+    border-right: 1px solid $gray-200;
+    &:last-child {
+      margin-right: 0;
+      border-right: 0;
+    }
+    .icon {
+      margin-right: 8px;
+      min-width: 16px;
+      min-height: 16px;
+      color: $ternary;
+      &--star-outline {
+        fill: $white;
+        stroke: $ternary;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__points {
+    display: flex;
+    align-items: center;
+    color: $primary;
+    .icon {
+      margin-right: 4px;
+      min-width: 12px;
+      min-height: 12px;
+      font-size: $font-size-xs;
+    }
+  }
+  &__value {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-medium;
+  }
+  &__reviews {
+    margin-left: 12px;
+    font-size: $font-size-xs;
+    color: $gray-600;
+  }
+}

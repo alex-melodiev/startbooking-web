@@ -1,0 +1,117 @@
+.booking {
+  &__section {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid $gray-200;
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+  &__title {
+    display: block;
+    margin-bottom: 24px;
+    font-size: 22px;
+    font-weight: $font-weight-medium;
+    color: $gray-800;
+  }
+  &__duration {
+    margin: 24px 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    &-container {
+      display: flex;
+      align-items: center;
+    }
+    &-error {
+      color: $danger;
+    }
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+  &__date {
+    display: block;
+    padding: 8px 12px;
+    line-height: 1.1;
+    margin-right: 24px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: $border-radius;
+    background: $gray-200;
+  }
+  &__datepicker {
+    width: 140px;
+    margin-right: 16px;
+    .mx-datepicker {
+      max-width: 100%;
+    }
+    .input {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  &__tag {
+    display: inline-flex;
+    align-items: center;
+    .icon {
+      margin-right: 10px;
+    }
+  }
+  &__cost {
+    font-size: $font-size-lg;
+  }
+  &__cost-body {
+    padding-bottom: 24px;
+  }
+  &__cost-footer {
+    padding-top: 24px;
+    border-top: 1px solid $gray-800;
+  }
+  &__cost-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    color: $gray-600;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &--allotted {
+      color: $black;
+    }
+  }
+  &__cost-key {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+    &:after {
+      content: '';
+      flex-grow: 2;
+      height: 1px;
+      margin: 0 4px 4px;
+      background: #F6F6F9;
+    }
+  }
+  &__col {
+    margin-bottom: 32px;
+  }
+
+  @include media-breakpoint-up(md) {
+    &__durations {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__duration {
+      margin: 0;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    &__cost {
+      width: 75%;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.rundown {
+  position: relative;
+  background: $white;
+  &__toggler {
+    display: block;
+    padding: 14px 24px 13px;
+    color: $gray-600;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+  &__label {
+    display: block;
+    margin: 0;
+  }
+  &__content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    max-height: 240px;
+    min-width: 100%;
+    overflow-y: auto;
+    padding: 12px 24px;
+    border-radius: 0 0 $border-radius-lg $border-radius-lg;
+    background: $white;
+  }
+  &__option {
+    display: block;
+    line-height: 1.3;
+    padding: 8px 0;
+    font-size: $font-size-md;
+    white-space: nowrap;
+    cursor: pointer;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__range {
+    margin-bottom: 16px;
+  }
+  &__subtitle {
+    display: block;
+    margin-bottom: 4px;
+  }
+  &__set {
+    display: flex;
+    align-items: center;
+    input, select {
+      margin-right: 12px;
+    }
+  }
+  &__hint {
+    color: $gray-500;
+    white-space: nowrap;
+  }
+  &--opened {
+    z-index: 9;
+  }
+}

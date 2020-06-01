@@ -1,0 +1,121 @@
+.sidebar {
+  $_: '.sidebar';
+  &__toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    &:before, &:after {
+      content: '';
+      height: 2px;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__locales {
+    display: flex;
+  }
+  &__locale {
+    margin-left: 8px;
+    a {
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 8px 16px;
+    color: $white;
+    background: $primary;
+    &__logo {
+      order: 2;
+    }
+    &__toggle {
+      order: 1;
+      width: 32px;
+      height: 22px;
+      margin-right: 16px;
+      &:before, &:after {
+        content: '';
+        width: 100%;
+        background: $white;
+      }
+      span {
+        display: block;
+        height: 2px;
+        width: 32px;
+        background: $white;
+      }
+    }
+    &__locales {
+      order: 3;
+      margin-left: auto;
+    }
+    &__locale {
+      margin-left: 8px;
+      a {
+        color: $gray-400;
+        &:hover {
+          color: $white;
+        }
+        &.router-link-exact-active, &.router-link-active {
+          color: $white;
+        }
+      }
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    width: 70px;
+    padding: 24px 20px;
+    background: $white;
+    &__logo {
+      width: 30px;
+      img {
+        max-width: 100%;
+      }
+    }
+    &__toggle {
+      height: 14px;
+      &:before, &:after {
+        width: 38px;
+        background: $gray-800;
+      }
+    }
+    &__locales {
+      flex-direction: column;
+    }
+    &__locale {
+      margin: 12px 0;
+      text-align: center;
+      a {
+        color: $gray-200;
+        &:hover {
+          color: $gray-800;
+        }
+        &.router-link-exact-active, &.router-link-active {
+          color: $gray-800;
+        }
+      }
+    }
+  }
+}

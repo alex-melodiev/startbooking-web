@@ -1,0 +1,33 @@
+.icon{
+  $_: '.n-icon';
+	display: inline-block;
+	width: 1em;
+    height: 1em;
+    min-width: 12px;
+    min-height: 12px;
+    fill: currentColor;
+  &--first{
+    margin-left: 8px;
+  }
+  &--last{
+    margin-right: 8px;
+  }
+  &--left{
+    transform: rotate(0);
+  }
+  &--top{
+    transform: rotate(90deg);
+  }
+  &--right{
+    transform: rotate(180deg);
+  }
+  &--bottom{
+    transform: rotate(270deg);
+  }
+
+  &--stroke {
+    stroke: currentColor;
+    stroke-width: 2px;
+  }
+}
+

@@ -1,0 +1,11 @@
+.edit {
+  &__label {
+    font-size: 22px;
+  }
+  &__field {
+    margin-bottom: 16px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

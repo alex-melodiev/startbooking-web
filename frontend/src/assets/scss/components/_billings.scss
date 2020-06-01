@@ -1,0 +1,28 @@
+.billings {
+  margin-left: -8px;
+  margin-right: -8px;
+  text-align: center;
+}
+.billing {
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+@include media-breakpoint-up(sm) {
+  .billing {
+    width: 296px;
+  }
+}
+@include media-breakpoint-up(md) {
+  .billings {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+  }
+}
+

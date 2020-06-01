@@ -1,0 +1,24 @@
+.row {
+  margin-left: -8px;
+  margin-right: -8px;
+  &--sm {
+    .col {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  &__col {
+    margin-bottom: 30px;
+    &--sm {
+      margin-bottom: 16px;
+    }
+  }
+}
+.col {
+  &--end {
+    align-self: flex-end;
+  }
+  &--middle {
+    align-self: center;
+  }
+}

@@ -1,0 +1,131 @@
+.comment {
+  border: 1px solid $gray-100;
+  border-radius: $border-radius-sm;
+  &__header, &__form {
+    padding: 24px 16px;
+    border-bottom: 1px solid $gray-100;
+  }
+  &__title {
+    display: block;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    font-weight: $font-weight-medium;
+    font-size: 32px;
+  }
+  &__auth {
+    color: $gray-600;
+    text-align: center;
+    &>.btn, &>span {
+      margin-right: 10px;
+    }
+  }
+  &__btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  &__body {
+    padding: 24px 16px;
+  }
+  &__item {
+    display: flex;
+    margin-bottom: 32px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__figure {
+    width: 50px;
+    flex: 0 0 50px;
+    margin: 0 20px 0 0;
+    img {
+      display: block;
+      max-width: 100%;
+      border-radius: 50%;
+    }
+  }
+  &__content {
+    flex-grow: 2;
+  }
+  &__row {
+    flex-grow: 2;
+  }
+  &__rating {
+    display: flex;
+    align-items: center;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-lg;
+    color: $ternary;
+    .icon {
+      margin-right: 8px;
+      font-size: 12px;
+    }
+  }
+  &__heading {
+    display: flex;
+    margin-bottom: 4px;
+    align-items: center;
+  }
+  &__author {
+    font-weight: $font-weight-bold;
+  }
+  &__date {
+    order: 2;
+    margin-left: 8px;
+    font-size: 8px;
+    color: $gray-400;
+    &:before {
+      content: '•';
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+  &__footer {
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  &__action {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    &:focus {
+      outline: none;
+    }
+    .icon {
+      margin-left: 8px;
+    }
+    &--primary {
+      color: $primary;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    &__header {
+      padding: 36px 24px;
+    }
+    &__body {
+      padding: 36px 24px;
+    }
+    &__footer {
+      padding-bottom: 36px;
+    }
+    &__auth {
+      display: flex;
+    }
+    &__row {
+      display: flex;
+    }
+    &__rating {
+      width: 50px;
+      flex: 0 0 50px;
+      margin-left: 20px;
+    }
+    &__btn {
+      display: inline-block;
+      width: auto;
+      margin-bottom: 0;
+    }
+  }
+}

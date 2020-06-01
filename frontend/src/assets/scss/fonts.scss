@@ -1,0 +1,90 @@
+//@font-face {
+//    font-family: 'SF Pro Display';
+//    src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
+//        url('~@/assets/fonts/subset-SFProDisplay-Semibold.woff2') format('woff2'),
+//        url('~@/assets/fonts/subset-SFProDisplay-Semibold.woff') format('woff'),
+//        url('~@/assets/fonts/subset-SFProDisplay-Semibold.ttf') format('truetype');
+//    font-weight: 600;
+//    font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'SF Pro Display';
+//  src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Regular.woff2') format('woff2'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Regular.woff') format('woff'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Regular.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'SF Pro Display';
+//  src: local('SF Pro Display Light'), local('SFProDisplay-Light'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Light.woff2') format('woff2'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Light.woff') format('woff'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Light.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'SF Pro Display';
+//  src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Medium.woff2') format('woff2'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Medium.woff') format('woff'),
+//  url('~@/assets/fonts/subset-SFProDisplay-Medium.ttf') format('truetype');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'SF Pro Text';
+//  src: local('SF Pro Text Regular'), local('SFProText-Regular'),
+//  url('~@/assets/fonts/subset-SFProText-Regular.woff2') format('woff2'),
+//  url('~@/assets/fonts/subset-SFProText-Regular.woff') format('woff'),
+//  url('~@/assets/fonts/subset-SFProText-Regular.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//    font-family: 'SF Pro Text';
+//    src: local('SF Pro Text Semibold'), local('SFProText-Semibold'),
+//        url('~@/assets/fonts/subset-SFProText-Semibold.woff2') format('woff2'),
+//        url('~@/assets/fonts/subset-SFProText-Semibold.woff') format('woff'),
+//        url('~@/assets/fonts/subset-SFProText-Semibold.ttf') format('truetype');
+//    font-weight: 600;
+//    font-style: normal;
+//}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('~@/assets/fonts/subset-Roboto-Light.woff2') format('woff2'),
+        url('~@/assets/fonts/subset-Roboto-Light.woff') format('woff'),
+        url('~@/assets/fonts/subset-Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('~@/assets/fonts/subset-Roboto-Medium.woff2') format('woff2'),
+        url('~@/assets/fonts/subset-Roboto-Medium.woff') format('woff'),
+        url('~@/assets/fonts/subset-Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('~@/assets/fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('~@/assets/fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('~@/assets/fonts/subset-Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

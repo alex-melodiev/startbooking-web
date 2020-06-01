@@ -1,0 +1,33 @@
+.contacts {
+  background: $white;
+  &__label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: $font-weight-normal;
+    color: $gray-500;
+  }
+  &__col {
+    margin-bottom: 32px;
+  }
+  &__info {
+    a {
+      color: inherit;
+    }
+  }
+  &__map {
+    position: relative;
+  }
+  &__illustration {
+    padding: 32px 0;
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(lg) {
+    &__illustration {
+      position: absolute;
+      right: -142px;
+      bottom: 0;
+      padding: 0;
+    }
+  }
+}

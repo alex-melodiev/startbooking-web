@@ -1,0 +1,33 @@
+.login {
+  padding: 100px 0;
+  background: $white;
+  &__container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  &__field {
+    margin-bottom: 10px;
+  }
+  &__illustration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-88px);
+  }
+  &__action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  &__btn {
+    margin-bottom: 20px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 150px 0;
+    &__action {
+      margin-bottom: 48px;
+    }
+  }
+}
